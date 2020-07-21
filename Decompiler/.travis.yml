@@ -1,0 +1,30 @@
+language: android
+android:
+   components:
+   - platform-tools
+   - android-23
+   - build-tools-23.0.0
+   - extra
+   
+env:
+  global:
+    MALLOC_ARENA_MAX=1
+   
+jdk: oraclejdk7
+
+sudo: false
+
+notifications:
+  email: false
+
+addons:
+  apt:
+    packages:
+    - libgd2-xpm
+    - ia32-libs
+    - ia32-libs-multiarch
+
+script:
+  - MALLOC_ARENA_MAX=1
+  - chmod a+x gradlew
+  - ./gradlew clean assembleFreeRelease --stacktrace
