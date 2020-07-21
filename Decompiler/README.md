@@ -1,6 +1,6 @@
 [![Build Status](https://img.shields.io/travis/niranjan94/show-java.svg?style=flat-square)](https://travis-ci.org/niranjan94/show-java) [![License Info](https://img.shields.io/badge/license-Apache_License_2.0-blue.svg?style=flat-square)](https://github.com/niranjan94/show-java) [![Play Store Info](https://img.shields.io/badge/Play_Store-v2.0.5-36B0C1.svg?style=flat-square)](https://play.google.com/store/apps/details?id=com.njlabs.showjava) [![GitHub app version](https://img.shields.io/badge/GitHub-v2.0.5-yellow.svg?style=flat-square)](https://github.com/niranjan94/show-java)
 
-![ShowJava Banner v0.1](https://raw.githubusercontent.com/niranjan94/show-java/master/banner.png)
+![ShowJava Banner v0.1](https://github.com/AsepMo/DMachine/blob/master/Decompiler/banner.png)
 
 An apk decompiler for android. Build on Android Studio 1.4 Beta with gradle 2.4.
 
